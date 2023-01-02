@@ -1,0 +1,10 @@
+What to use when?
+
+
+Static App Serving (think landing pages or Portfolio) - S3 
+Need an API (REST) - Use API Gateway
+Logic when a request hits the REST endpoint - Lambda 
+Need to store data - Use DynamoDB (NOSQL)
+Authentication required? Use Cognito
+DNS - Use route 53
+Need caching - Use Cloudfront
